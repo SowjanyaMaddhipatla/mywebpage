@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text Analyzer Tool</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <h1>Text Analyzer Tool</h1>
+  <p>Please give text to procesing(limit is 20,000),then click "Analyze" to view processed data.</p>
+
+
+  <textarea id="textInput" placeholder="Paste your text here..." maxlength="20000"></textarea>
+
+  <button onclick="analyzeText()">Analyze</button>
+
+  <div id="output"></div>
+
+</body>
+</html>
