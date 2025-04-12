@@ -1,73 +1,82 @@
-main{
-    background-color:rgb(197, 237, 163);
-}
-header {
-    color: #0a0c0b8b;      /* orange-red */
-    background-color:rgb(124, 195, 62);
-    padding: 10px;
-    text-align: center;
-  }
-
-  a {
-    color: #de0e4d;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
+main {
   
-  a:hover {
-    color: #161615;
-    text-decoration: underline;
-    font-weight:lighter
-  }
+  background-image: url("/images/bg4.png"); /* correct relative path */
+  background-color: rgb(197, 237, 163); /* fallback color */
+  background-size: cover; /* makes sure the image fills the area */
+  background-repeat: no-repeat; /* prevents the image from repeating */
+  background-position: center; /* centers the image */
+}
+
+header {
+  color: #0a0c0b8b;
+  background-color: rgb(124, 195, 62);
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  color: #de0e4d;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #161615;
+  text-decoration: underline;
+  font-weight: lighter
+}
 
 footer {
-    background-color: rgb(124, 195, 62);
-}  
+  background-color: rgb(124, 195, 62);
+}
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: left
-    ;
-    padding: 40px;
-  }
-  
-  .text {
-    flex: 1;
-    padding-right: 20px;
-  }
-  
-  .image img {
-    width: 250px;
-    height: auto;
-    border-radius: 10px;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: 40px;
+}
 
-  textarea#textInput {
-    width: 100%;
-    max-width: 100%;
-    height: 300px;
-    font-size: 16px;
-    padding: 10px;
-    margin-bottom: 15px;
+.text {
+  background-image: url("/images/bg4.png");
+  flex: 1;
+  padding-right: 20px;
+  background-repeat: no-repeat; /* prevents the image from repeating */
+  background-position: center; /* centers the image */
+}
+
+
+.image img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+textarea#textInput {
+  width: 100%;
+  max-width: 100%;
+  height: 300px;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 16px;
-    margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
 #output ul {
-    list-style-type: disc;
-    padding-left: 20px;
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 #output pre {
-    background-color: #f8f8f8;
-    border-left: 4px solid #ccc;
-    padding: 10px;
-    overflow-x: auto;
+  background-color: #f8f8f8;
+  border-left: 4px solid #ccc;
+  padding: 10px;
+  overflow-x: auto;
 }
