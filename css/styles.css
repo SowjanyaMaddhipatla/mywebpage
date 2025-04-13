@@ -39,7 +39,7 @@ footer {
 }
 
 .text {
-  background-image: url("/images/bg4.png");
+  background-image: url("../images/bg4.png");
   flex: 1;
   padding-right: 20px;
   background-repeat: no-repeat; /* prevents the image from repeating */
