@@ -1,15 +1,10 @@
 main {
-  
-  background-image: url("/mywebpage/images/bg4.png"); /* correct relative path */
-  background-color: rgb(197, 237, 163); /* fallback color */
-  background-size: cover; /* makes sure the image fills the area */
-  background-repeat: no-repeat; /* prevents the image from repeating */
-  background-position: center; /* centers the image */
+  background-color: #e4ac9f;
 }
 
 header {
   color: #0a0c0b8b;
-  background-color: rgb(124, 195, 62);
+  background-color: #e4ac9f;
   padding: 10px;
   text-align: center;
 }
@@ -28,7 +23,7 @@ a:hover {
 }
 
 footer {
-  background-color: rgb(124, 195, 62);
+  background-color: #e4ac9f;
 }
 
 .container {
@@ -39,11 +34,9 @@ footer {
 }
 
 .text {
-  background-image: url("../images/bg4.png");
+  
   flex: 1;
   padding-right: 20px;
-  background-repeat: no-repeat; /* prevents the image from repeating */
-  background-position: center; /* centers the image */
 }
 
 
