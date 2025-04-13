@@ -1,6 +1,6 @@
 main {
   
-  background-image: url("images/bg4.png"); /* correct relative path */
+  background-image: url("../images/bg4.png"); /* correct relative path */
   background-color: rgb(197, 237, 163); /* fallback color */
   background-size: cover; /* makes sure the image fills the area */
   background-repeat: no-repeat; /* prevents the image from repeating */
