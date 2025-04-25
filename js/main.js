@@ -1,4 +1,4 @@
-/*document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
     // Log initial page view
     logEvent("view", document.body);
 
@@ -26,7 +26,7 @@
     });
 });
 
-
+/*
 function analyzeText() {
     const text = document.getElementById("textInput").value;
     const output = document.getElementById("output");
